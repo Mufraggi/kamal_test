@@ -1,0 +1,18 @@
+# Ignorer les fichiers de configuration sensibles
+config/
+.kamal
+
+# Ignorer les fichiers et dossiers courants inutiles dans une image Docker
+node_modules/
+dist/
+.build/
+coverage/
+logs/
+temp/
+*.log
+*.env
+.DS_Store
+
+# Ignorer les fichiers Git
+.git
+.gitignore
